@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Autofac" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" />
+    <PackageReference Include="Dapper"  />
+    <PackageReference Include="MySql.Data" />
+    <PackageReference Include="Polly" />
+    <PackageReference Include="MailKit" />
+  </ItemGroup>
+</Project>

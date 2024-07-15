@@ -1,0 +1,71 @@
+.UserProfile {
+    padding: 0px 300px;
+}
+
+.UserProfile h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #303030;
+}
+
+#AddAdvert {
+    width: 100%;
+    border: 2px solid #007320;
+    background-color: #ebfff0;
+    color: #007320;
+    margin: 0;
+    padding: 10px;
+}
+
+.uc-column-l {
+    width: 420px;
+}
+
+.uc-column-r {
+    flex: 1;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll-container {
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.scroll-container h3 {
+    display: flex;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.uc-notif-elem {
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+}
+
+.uc-notif-elem div {
+    display: flex;
+}
+
+.uc-notif-elem img {
+    height: 24px;
+    margin: 5px;
+}
+
+.uc-notif-elem h4,
+h6 {
+    margin: 5px;
+}
+
+.uc-notif-elem h4,
+h6 {
+    font-weight: 600;
+}

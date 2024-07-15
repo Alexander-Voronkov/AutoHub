@@ -1,0 +1,54 @@
+.car-specifications {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.spec-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.spec-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spec-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.spec-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.spec-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.spec-value {
+    font-weight: normal;
+}
+
+.separator {
+    border-left: 1px solid #ccc;
+    margin: 0 20px;
+}
+
+@media (max-width: 768px) {
+    .spec-row {
+        flex-direction: column;
+    }
+
+    .separator {
+        border-left: none;
+        border-top: 1px solid #ccc;
+        margin: 20px 0;
+    }
+}

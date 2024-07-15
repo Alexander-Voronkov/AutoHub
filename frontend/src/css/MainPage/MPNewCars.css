@@ -1,0 +1,15 @@
+#newCarList {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+#CarName{
+    margin: 0;
+    font-weight: 400;
+}
+
+#CarPrice {
+    margin: 0;
+    font-weight: 500;
+}

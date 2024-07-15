@@ -1,0 +1,13 @@
+out/
+data/
+.gitignore
+docker-compose.yml
+Dockerfile_backend
+AutoHub.sln
+.vs/
+**/bin
+**/obj
+**/Debug
+**/Release
+**/debug
+**/release

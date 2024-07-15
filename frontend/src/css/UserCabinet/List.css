@@ -1,0 +1,29 @@
+.userlistbuttons {
+    padding: 0;
+}
+
+.userlistbuttons img {
+margin-right: 15px;
+}
+
+.userlistbuttons li {
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.userlistbuttons button{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.green {
+    filter: brightness(0) saturate(100%) invert(19%) sepia(95%) saturate(2092%) hue-rotate(130deg) brightness(100%) contrast(101%);
+}
+
+.new-size{
+    width: 24px;
+    transform: scale(1.5);
+
+}

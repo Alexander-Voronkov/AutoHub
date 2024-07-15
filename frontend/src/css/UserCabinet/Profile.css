@@ -1,0 +1,22 @@
+.ProfileCard {
+    margin-bottom: 20px;
+    background-color: #ebfff0;
+    border: 3px solid #007320;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.profileInfo {
+    display: flex;
+}
+
+#userPicture {
+    margin: 20px;
+    flex-shrink: 0;
+}
+
+#editProfile {
+    margin-top: 10px;
+    align-self: flex-start;
+}

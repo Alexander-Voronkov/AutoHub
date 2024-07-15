@@ -1,0 +1,22 @@
+.pagi-container {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.pagi-container button {
+    border: 1px solid #a8a8a8;
+    height: 45px;
+    width: 45px;
+}
+
+.pagi-container img {
+    height: 45px;
+    width: 45px;
+}
+
+.pagi-selected {
+    background-color: #007320;
+    border-color: #007320 !important;
+    color: white;
+}

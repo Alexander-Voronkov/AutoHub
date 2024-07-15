@@ -1,0 +1,51 @@
+﻿<Project>
+  <ItemGroup>
+    <PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.556"/>
+  </ItemGroup>
+
+  <ItemGroup Condition="$(MSBuildProjectName.EndsWith('API'))">
+    <PackageVersion Include="Hellang.Middleware.ProblemDetails" Version="6.5.1" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+  
+  <ItemGroup Condition="$(MSBuildProjectName.EndsWith('BuildingBlocks.Domain'))">
+    <PackageVersion Include="MediatR" Version="12.2.0"/>
+  </ItemGroup>
+  
+  <ItemGroup Condition="$(MSBuildProjectName.EndsWith('BuildingBlocks.Application'))">
+    <PackageVersion Include="FluentValidation" Version="11.8.1" />
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageVersion Include="Serilog.AspNetCore" Version="8.0.0" />
+    <PackageVersion Include="Quartz" Version="3.8.0" />
+  </ItemGroup>
+  
+  <ItemGroup Condition="$(MSBuildProjectName.EndsWith('BuildingBlocks.Infrastructure'))">
+    <PackageVersion Include="Autofac" Version="7.1.0" />
+    <PackageVersion Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageVersion Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
+    <PackageVersion Include="Dapper" Version="2.1.35" />
+    <PackageVersion Include="MySql.Data" Version="8.3.0" />
+    <PackageVersion Include="Polly" Version="8.2.0" />
+    <PackageVersion Include="MailKit" Version="4.6.0"/>
+  </ItemGroup>
+  
+  <ItemGroup Condition="$(MSBuildProjectName.EndsWith('Infrastructure')) and !$(MSBuildProjectName.Contains('BuildingBlocks'))">
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.4" />
+    <PackageVersion Include="Bogus" Version="35.5.1" />
+  </ItemGroup>
+
+  <ItemGroup Condition="$(MSBuildProjectName.EndsWith('UserAccess.Infrastructure'))">
+    <PackageVersion Include="IdentityServer4" Version="4.1.2" />
+    <PackageVersion Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
+    <PackageVersion Include="IdentityServer4.Storage" Version="4.1.2" />
+  </ItemGroup>
+  
+  <ItemGroup Condition="$(MSBuildProjectFullPath.Contains('Tests'))">
+    <PackageVersion Include="NetArchTest.Rules" Version="1.3.2" />
+    <PackageVersion Include="NSubstitute" Version="5.1.0" />
+    <PackageVersion Include="nunit" Version="4.1.0" />
+    <PackageVersion Include="NUnit3TestAdapter" Version="4.5.0" />
+    <PackageVersion Include="FluentAssertions" Version="6.12.0" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+  </ItemGroup>
+</Project>

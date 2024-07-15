@@ -1,0 +1,178 @@
+.ad-container {
+  margin-top: 50px;
+}
+
+.main-content {
+  display: flex;
+  width: 100%;
+}
+
+.car-listing {
+  width: 40%;
+  padding: 20px;
+}
+
+.car-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.car-header h2 {
+  margin: 0px;
+}
+
+.product-code {
+  color: #777;
+  margin: 0px;
+}
+
+.seller-info {
+  display: flex;
+  margin-top: 20px;
+}
+
+.seller-avatar img {
+  border-radius: 50%;
+}
+
+.seller-details {
+  margin-left: 20px;
+}
+
+.seller-name, .seller-location {
+  font-weight: bold;
+}
+
+.seller-rating {
+  margin: 25px 0px;
+  color: #777;
+}
+
+.seller-rating .rating {
+  color: #ff0;
+}
+
+.contact-buttons button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-buttons button:hover {
+  background-color: #218838;
+}
+
+.car-actions {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.car-actions button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.car-actions .buy {
+  background-color: #28a745;
+}
+
+.car-actions .call {
+  background-color: #dc3545;
+}
+
+.car-actions .buy:hover {
+  background-color: #218838;
+}
+
+.car-actions .call:hover {
+  background-color: #c82333;
+}
+
+.car-price {
+  border: 3px solid #ccc;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.car-price p {
+  padding-left: 20px;
+  margin: 0px;
+}
+
+.car-price p:first-child {
+  padding-top: 20px;
+}
+.car-price p:last-of-type {
+  padding-bottom: 20px;
+}
+
+.car-price .display-price {
+  display: flex;
+  padding-left: 20px;
+}
+
+.car-price .price-amount {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.currency-options button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.currency-options button:hover {
+  background-color: #f0f0f0;
+}
+
+.ad-right-column {
+  padding-left: 25px;
+  width: 60%;
+}
+
+.car-description {
+  margin-top: 20px;
+}
+
+.car-description h3 {
+  font-weight: bold;
+}
+
+.similar-offers-cont {
+  margin-top: 20px;
+}
+
+.similar-offers-cars {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.similar-offers-cars > * {
+  flex: 1; 
+  min-width: 150px;
+}
+
+.similar-offers h2 {
+  padding: 10px;
+}
+
+.seller-box{
+  padding: 10px;
+  border: 3px solid #ccc;
+}

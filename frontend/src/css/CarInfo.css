@@ -1,0 +1,55 @@
+.car-info-container {
+    display: flex;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .car-info, .car-history {
+    flex: 1;
+    min-width: 300px;
+    padding: 16px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    margin: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .car-info h2, .car-history h2 {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #3b873e;
+  }
+  
+  .car-info p, .car-history p {
+    margin: 8px 0;
+  }
+  
+  .car-info ul, .car-history ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .car-info li, .car-history li {
+    margin-bottom: 8px;
+  }
+  
+  .car-info li span, .car-history li strong {
+    font-weight: bold;
+  }
+  
+  .date {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .car-history li {
+    margin-bottom: 16px;
+  }
+  
+  .car-history p {
+    margin: 0;
+  }
+  

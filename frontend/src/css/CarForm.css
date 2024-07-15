@@ -1,0 +1,162 @@
+.car-form {
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: left;
+  color: #333;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.Vin-cont {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.Vin-cont label {
+  margin: 0px;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
+
+.photo-button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #FF5722;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.vin-code {
+  margin-bottom: 20px;
+}
+
+.vin-code label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.vin-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.vin-input-container input {
+  width: calc(100% - 42px);
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+
+.vin-input-container .camera-icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.main-info,
+.characteristics,
+.price {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+label {
+  margin-top: 10px;
+  color: #333;
+}
+
+input[type="text"],
+select,
+textarea {
+  margin-top: 10px;
+  width: 100%;
+  background-color: white;
+  border: 2px solid #a8a8a8;
+  font-size: 15px;
+  padding: 10px 0px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+textarea {
+  height: 100px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #FF5722;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.price {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.add-price {
+  display: flex;
+  height: 40px;
+  margin-bottom: 25px;
+}
+
+.add-price input {
+  margin: 0px;
+  width: 30%;
+}
+
+.add-price h3 {
+  padding-right: 25px;
+  margin: auto 0px;
+}
+
+.price label {
+  display: flex;
+  align-items: center;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+
+  .main-info,
+  .characteristics,
+  .additional-options,
+  .price {
+    grid-template-columns: 1fr;
+  }
+
+  .price {
+    grid-template-columns: 1fr 1fr;
+  }
+}

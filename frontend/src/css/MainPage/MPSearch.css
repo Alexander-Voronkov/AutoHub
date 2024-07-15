@@ -1,0 +1,147 @@
+.MPSearchContainer {
+    padding: 10px;
+    background-color: #eeeeee;
+    border-width: 5px 2px 5px 2px;
+    border-style: solid;
+    border-color: #a8a8a8;
+    color: #404040;
+    margin-top: 50px;
+    user-select: none;
+}
+
+.unclicked {
+    background-color: white;
+    padding: 5px;
+    border: 2px solid #a8a8a8;
+}
+
+.clicked {
+    background-color: white;
+    border: 2px solid #007320;
+    padding: 5px;
+}
+
+.centered {
+    justify-content: center !important;
+}
+
+.clicked-centered{
+    color: #007320;
+}
+
+#Type {
+    display: flex;
+    margin: 0px 50px;
+}
+
+#Type div {
+    width: 130px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.shrinked{
+    width: 50%;
+    margin: 0px auto !important;
+}
+
+.type-right{
+    margin: 0px !important;
+    margin-top: 25px !important;;
+    margin-left: auto !important;
+}
+
+.checkedVin {
+    padding: 0;
+    margin: 5px;
+    padding-left: 150px;
+}
+
+.DropDowns {
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dropdown {
+margin: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.additional {
+    width: 120px;
+    cursor: text !important;
+}
+
+.column {
+    margin-right: 50px;
+    flex: 1;
+}
+
+.column:last-child {
+    margin-right: 0px;
+}
+
+.wrapper {
+    margin-top: 10px;
+    background-color: white;
+    border: 2px solid #a8a8a8;
+    font-size: 15px;
+    padding: 10px 0px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.Buttons {
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+
+.Buttons button {
+    width: 300px;
+    padding: 7px;
+}
+
+#AdvancedSearchBtn {
+    border: 3px solid #007320;
+    background: white;
+    color: #007320;
+}
+
+#SearchBtn {
+    border: 3px solid #007320;
+    background: #007320;
+}
+
+#SearchBtn div{
+    color: white;
+}
+
+#SearchBtn div {
+    display: flex;
+    justify-content: center;
+}
+
+#SearchBtn img {
+    filter: brightness(0) invert(100%);
+}
+
+#SellCarBtn {
+    border: 3px solid #c34600;
+    background: #c34600;
+    color: white;
+}
+
+.adv-search-button{
+    width: 30%;
+    height: 40px;
+}
+

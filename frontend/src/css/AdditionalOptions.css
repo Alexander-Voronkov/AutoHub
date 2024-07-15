@@ -1,0 +1,28 @@
+.additional-options {
+  margin: 20px;
+}
+
+.additional-options h2 {
+  color: #333;
+}
+
+.options-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.options-columns ul {
+  list-style: none;
+  padding: 0;
+}
+
+.additional-options li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.additional-options li::before {
+  content: "✔";
+  color: green;
+  margin-right: 10px;
+}

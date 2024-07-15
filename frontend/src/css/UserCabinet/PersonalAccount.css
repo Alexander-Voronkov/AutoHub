@@ -1,0 +1,30 @@
+.PersonalAccount {
+    margin-bottom: 20px;
+    border: 3px solid #a8a8a8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PersonalAccount div {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.PersonalAccount p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.PersonalAccount h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.PersonalAccount button {
+    background-color: #007320;
+    color: white;
+    margin: 10px;
+    padding: 0 20px;
+    font-weight: 400;
+}

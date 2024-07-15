@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+ <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools"/>
+    <PackageReference Include="Bogus" />
+    <PackageReference Include="IdentityServer4" />
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" />
+    <PackageReference Include="IdentityServer4.Storage"/>
+  </ItemGroup>
+</Project>
